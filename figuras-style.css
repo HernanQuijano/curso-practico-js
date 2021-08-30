@@ -1,0 +1,27 @@
+*{
+  margin=0;
+  padding=0;
+}
+body{
+  background: linear-gradient(#21C08B, #AB88FF);
+}
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__container-cuadrado{
+  width: 33,333%;
+  padding: 5px;
+}
+.main__container-triangulo{
+  width: 33,333%;
+  padding: 5px;
+
+}
+.main__container-circulo{
+  width: 33,333%;
+  padding: 5px;
+}

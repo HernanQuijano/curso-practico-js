@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./figuras-style.css">
+  <script src="./figuras.js"></script>
+  <title>Figuras Geometricas | curso practico de js</title>
+</head>
+<body>
+  <header>
+  <h1>Figuras Geometricas</h1>
+  <p>Este es el primer taller practico de js</p>
+  </header>
+
+  <section class="main">
+    <div class="main__container-cuadrado">
+      <h2>Cuadrado</h2>
+      <h3>Calcula el area y perimetro de un cuadrado</h3>
+      <form action="index.html" method="post">
+        <label for="inputCuadrado">Escribe cuando mide cada lado de tu cuadrado:</label>
+        <input id="inputCuadrado" type="number" name="" value="">
+        <button type="button" onClick="calcularPerimetroCuadrado()"name="button">Perimetro</button>
+        <button type="button" onClick="calcularAreaCuadrado()" name="button">Area</button>
+      </form>
+    </div>
+
+    <div class="main__container-triangulo">
+      <h2>Triangulo</h2>
+      <h3>Calcula el area y perimetro de un triangulo</h3>
+      <form action="index.html" method="post">
+        <label for="inputTrianguloLado1">Escribe cuando mide un lado de tu triangulo:</label>
+        <input id="inputTrianguloLado1" type="number" name="" value="">
+        <br>
+        <label for="inputTrianguloLado2">Escribe cuando mide el otro lado de tu triangulo:</label>
+        <input id="inputTrianguloLado2" type="number" name="" value="">
+        <br>
+        <label for="inputTrianguloBase">Escribe cuando mide la base de tu triangulo:</label>
+        <input id="inputTrianguloBase" type="number" name="" value="">
+        <br>
+        <label for="inputTrianguloAltura">Escribe cuando mide la altura de tu triangulo:</label>
+        <input id="inputTrianguloAltura" type="number" name="" value="">
+        <br>
+        <button type="button" onClick="calcularPerimetroTriangulo()"name="button">Perimetro</button>
+        <button type="button" onClick="calcularAreaTriangulo()" name="button">Area</button>
+      </form>
+    </div>
+
+    <div class="main__container-circulo">
+      <h2>Circulo</h2>
+      <h3>Calcula el area y perimetro de un circulo</h3>
+      <form action="index.html" method="post">
+        <label for="inputCirculo">Escribe cuando mide el radio de tu circulo:</label>
+        <input id="inputCirculo" type="number" name="" value="">
+        <button type="button" onClick="calcularDiametroCirculo()"name="button">Diametro</button>
+        <button type="button" onClick="calcularPerimetroCirculo()"name="button">Perimetro</button>
+        <button type="button" onClick="calcularAreaCirculo()" name="button">Area</button>
+      </form>
+    </div>
+  </section>
+  </script>
+</body>
+</html>
